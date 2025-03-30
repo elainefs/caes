@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: url("../img/campo.jpg") no repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 1.25em;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background-color: black;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  gap: 2em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #006400;
+  padding: 0.1em;
+}
+
+footer {
+  color: #fff;
+  background-color: black;
+  padding: 2em;
+}
+
+/* Seção de Raças */
+.racas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.coluna {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+  width: 80%;
+}
+
+.coluna img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.coluna h3 {
+  margin-bottom: 10px;
+  color: #2e8b57;
+}
+
+.coluna p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Formulário */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #2e8b57;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+form button:hover {
+  background-color: #3cb371;
+}
+
+/* Seção Bem-Vindo */
+.bem-vindo {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.bem-vindo p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Seção Dicas */
+.dicas {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #2e8b57;
+  margin: 20px;
+}
+
+.dicas p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Galeria de Imagens*/
+#galeria {
+  width: 500;
+  height: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+/* Form busca */
+#pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
